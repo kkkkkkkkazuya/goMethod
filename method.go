@@ -44,8 +44,8 @@ func (s Student) avg(math, english float64) (avgResult float64) {
 	return
 }
 
-func (u User) cal(weight, height float64) (calAvg float64) {
-	calAvg = (weight / height / height) * 10000
+func (u User) cal(weight, height float64) (result float64) {
+	result = (weight / height / height) * 10000
 	return
 }
 
